@@ -59,7 +59,7 @@ setxkbmap -option ctrl:nocaps
 
 所幸的是 setxkbmap 的 option 提供了一些设定好的映射，直接拿来用了。而对于将 menu 改为右 Win 键的设置似乎没有，使用 xmodmap 可以方便的实现这一点。
 
-```
+```sh
 # 通过 xev 获得 menu 键的 keycode 135
 # 编辑 ~/.Xmodmap
 keycode 135 = Super_R Super_R
