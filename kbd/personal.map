@@ -1,0 +1,4 @@
+# /usr/local/share/kbd/keymaps/personal.map
+keymaps 0-255
+keycode 58 = Control
+keycode 100 = Alt
