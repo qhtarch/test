@@ -1,0 +1,25 @@
+urxvt.font: xft:SourceCodePro:size=12,\
+	xft:SourceHanSans:size=12
+urxvt.letterSpace: -1
+urxvt.scrollBar: false
+urxvt.cursorBlink: true
+urxvt.inputMethod: ibus
+urxvt.perl-ext-common: default,resize-font
+
+! The colors is selected casually with html <input type='color'> in firefox, change those as you need
+! Check out man terminfo and man urxvt for more info
+! Different $TERM value seems affect the actual color, i use TERM=linux for vim, vim in tmux is fine
+urxvt.color1: #e12b29
+urxvt.color9: #e12b29
+urxvt.color2: #2a9b59
+urxvt.color10: #2a9b59
+urxvt.color3: #f8a225
+urxvt.color11: #f8a225
+urxvt.color4: #25a0f8
+urxvt.color12: #25a0f8
+urxvt.color5: #c94778
+urxvt.color13: #c94778
+urxvt.color6: #5b9eb1
+urxvt.color14: #5b9eb1
+urxvt.foreground: #fff
+urxvt.background: #222
